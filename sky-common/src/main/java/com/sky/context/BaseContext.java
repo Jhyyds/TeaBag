@@ -2,6 +2,7 @@ package com.sky.context;
 
 public class BaseContext {
 
+    //静态资源用类名访问
     public static ThreadLocal<Long> threadLocal = new ThreadLocal<>();
 
     public static void setCurrentId(Long id) {
